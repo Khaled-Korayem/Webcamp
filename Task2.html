@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to Coffee House!</h1>
+    <p>
+        <a href="#home" style="color: black;">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="#menu" style="color: black;">Menu</a>&nbsp;&nbsp;&nbsp;
+        <a href="#purchase" style="color: black;">Purchase</a>&nbsp;&nbsp;&nbsp;
+        <a href="#address" style="color: black;">Address</a>&nbsp;&nbsp;&nbsp;
+        <a href="#contact" style="color: black;">Contact</a>
+    </p>
+
+    <h2 id="home">Our recommendations</h2>
+    <p>Here are some of our top-rated coffee drinks&#9749</p>
+    <h3> 1. Espresso</h3>
+    <p> customer rating: 4.5/5</p>
+    <h3> 2. Cappuccino</h3>
+    <p> customer rating: 4.7/5</p>
+    <h3> 3. Latte</h3>
+    <p> customer rating: 4.6/5</p>
+    <h3> 4. Mocha</h3>
+    <p> customer rating: 4.8/5</p>
+    <h3> 5. Americano</h3>
+    <p> customer rating: 4.9/5</p>
+
+    <h2 id="menu">Menu:</h2>
+    <ul>
+        <li>Espresso</li>
+        <li>Cappuccino</li>
+        <li>Latte</li>
+        <li>Mocha</li>
+        <li>Americano</li>
+        <li>Tea</li>
+        <li>Hot Chocolate</li>
+        <li>Macchiato</li>
+        <li>Flat White</li>
+        <li>Affogato</li>
+        <li>Turkish Coffee</li>
+        <li>Green Tea</li>
+    </ul>
+
+    <h2 id="purchase">Desserts:</h2>
+    <table style="border-collapse: collapse; width: 60%;">
+        <tr>
+            <th style="border: 1px solid black; padding: 8px;">Type</th>
+            <th style="border: 1px solid black; padding: 8px;">Chocolate</th>
+            <th style="border: 1px solid black; padding: 8px;">Fruit</th>
+            <th style="border: 1px solid black; padding: 8px;">Cream</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">Best seller</td>
+            <td style="border: 1px solid black; padding: 8px;">Chocolate Cake</td>
+            <td style="border: 1px solid black; padding: 8px;">Fruit Tart</td>
+            <td style="border: 1px solid black; padding: 8px;">Cheesecake</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">New item</td>
+            <td style="border: 1px solid black; padding: 8px;">Brownie</td>
+            <td style="border: 1px solid black; padding: 8px;">Tiramisu</td>
+            <td style="border: 1px solid black; padding: 8px;">Muffin</td>
+        </tr>
+    </table>
+    <h2>Enter your info and order now:</h2>
+    <form action="order.html">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" required><br><br>
+        <input type="submit" value="Order Now">
+        <br>date: <input type="date" id="date" name="date" required><br><br>
+        time: <input type="time" id="time" name="time" required><br><br>
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>  
+    </form>
+
+    <h2 id="address">Pay us a visit!</h2>
+    <p>We are located at:</p>
+    <ul>
+        <li><i> Smouha</i></li>
+        <li><i> Kafr Abdo</i></li>
+        <li><i>Rubix Park</i></li>
+        <li><i> Gleem Bay</i></li>
+    </ul>
+
+    <h2 id="contact">Contact us:</h2>
+    <p>For any inquiries, please reach out to us:</p>
+    <ul>
+        <li>Email: info@coffeehouse.com</li>
+        <li>Phone: +20*********</li>
+    </ul>
+    <label for="recommendations">Recommendations:</label><br>
+    <textarea id="recommendations" name="recommendations" rows="4" cols="50"></textarea><br><br>
+    <h2>Rate our service:</h2>
+    <label for="service-rating">Out of 5:</label>
+    <select id="service-rating" name="service-rating" style="color: gold; font-size: 1.2em;">
+        <option value="1">&#9733;</option>
+        <option value="2">&#9733;&#9733;</option>
+        <option value="3">&#9733;&#9733;&#9733;</option>
+        <option value="4">&#9733;&#9733;&#9733;&#9733;</option>
+        <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+    </select>
+    <hr>
+   <pre><h3>Eng.Khaled Korayem | Project 2
+    
+   </h3></pre>
+</body>
+</html>
